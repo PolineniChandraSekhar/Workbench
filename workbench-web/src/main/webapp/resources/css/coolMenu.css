@@ -1,0 +1,73 @@
+body {
+	margin-top: 50px;
+	font-family: Arial;
+}
+h2 { font-size: 20px; color: #999; padding: .5em 0;}
+h3 { font-size: 14px; }
+
+/* Structure
+------------------------------------------*/
+#coolMenu,
+#coolMenu ul {
+	list-style: none;
+}
+#coolMenu {
+	float: left;
+}
+#coolMenu > li {
+	float: left;
+}
+#coolMenu li a {
+	display: block;
+	height: 2em;
+	line-height: 2em;
+	padding: 0 1.5em;
+	text-decoration: none;
+}
+#coolMenu ul {
+	position: absolute;
+	display: none;
+	z-index: 999;
+}
+#coolMenu ul li a {
+   width: 160px;
+}
+#coolMenu ul lj a {
+   width: 90px;
+}
+#coolMenu ul lk a {
+   width: 135px;
+}
+#coolMenu ul ll a {
+   width: 90px;
+}
+#coolMenu ul lm a {
+   width: 200px;
+}
+#coolMenu ul ln a {
+   width: 120px;
+}
+#coolMenu li:hover ul.noJS {
+	display: block; 
+}
+
+
+/* Main menu
+------------------------------------------*/
+#coolMenu {
+	font-family: Arial;
+	font-size: 12px;
+	
+}
+#coolMenu > li > a {
+	
+	font-weight: bold;
+}
+#coolMenu > li:hover > a {
+	
+	
+}
+
+
+/* Submenu
+------------------------------------------*/

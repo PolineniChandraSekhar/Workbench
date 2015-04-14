@@ -1,0 +1,58 @@
+
+#add_remove_list .row{
+	margin: 3px;
+	padding: 0px;
+	display:list-item;
+	list-style: none;
+	line-height:20px;
+}
+
+#add_remove_list select{
+	width:340px;
+	float:left;
+}
+
+#add_remove_list .row input{
+	width:18px;
+	margin:0;
+	padding:0;
+
+	
+}
+
+
+#add_remove_list .label_div{
+	float:left;
+	width:270px;
+
+}
+
+#add_remove_list .controller{
+	float:left;
+	text-align:center;
+	width:50px;
+	padding-top:95px;
+}
+
+#add_remove_list .controller input{
+	width:30px;
+	cursor:pointer;
+}
+
+#add_remove_list .button{
+	margin:0;
+	*padding:0;
+}
+
+#add_remove_list .text_red{
+ color:#E61A1F;
+}
+
+#add_remove_list .extra_box{
+	float:right;
+	width:152px;
+}
+
+#add_remove_list .extra_box select{
+	width:150px;
+}

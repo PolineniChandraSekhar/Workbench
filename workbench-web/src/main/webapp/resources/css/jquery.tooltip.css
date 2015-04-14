@@ -1,0 +1,50 @@
+div.jquery-gdakram-tooltip { 
+  width: 350px;
+  color: #000;
+  font-size: 12px;
+	position: absolute;
+	z-index: 10000;
+	top: 0px;
+	left: 0px;
+	display: none;
+	
+}
+
+div.jquery-gdakram-tooltip div.content { 
+ 
+  background-color: #9fbfe0;
+  width: 290px;
+  min-height: 100px;
+  float: left;
+  padding: 10px;
+  text-align:left;
+}
+
+div.jquery-gdakram-tooltip div.content h1 {
+  font-size: 16px;
+  border-bottom: 1px solid #C4C4C4;
+  padding-bottom: 5px;
+}
+
+div.jquery-gdakram-tooltip div.left_arrow {
+  height: 100%;
+}
+
+div.jquery-gdakram-tooltip div.left_arrow {
+  float:left;
+  background : url('../images/left_arrow.png') 0px 0px no-repeat;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-top:20px;
+  top: 40px;
+  left: 0px;
+}
+
+
+#toolpipText ul li{
+	color: #000;
+	padding:5px 10px 5px 10px;
+	 
+}
+
